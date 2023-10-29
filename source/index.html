@@ -26,8 +26,8 @@
     <p class="preview__vertical-text">
       Олимп
     </p>
-    <img class="preview__image-for-video" src="img/preview/preview-1.jpg" width="2000" height="1000"
-         alt="Фото для видео.">
+    <video class="preview__video" poster="img/preview/preview-1.jpg" preload="metadata" width="2000" height="1000">
+    </video>
     <button class="preview__play-button" type="button">
       Смотреть видео
     </button>
@@ -140,22 +140,24 @@
         Высадка двоих астронавтов на Луну обошлась США в 20 млрд. долларов. Маск стремится сократить эту цифру в 20 000
         раз, что составит <span class="offer__price">500 000 долларов</span> на человека.
       </p>
-      <p class="offer__price">
-        <em class="offer__price-value">$500 k</em><i class="offer__slogan"> и ты на Марсе!</i>
-      </p>
-      <button class="offer__button" type="button">
-        Я готов лететь
-      </button>
+      <form class="offer__form" method="post" enctype="multipart/form-data" action="#" autocomplete="off">
+        <span class="offer__price">$500 k</span>
+        <label class="visually-hidden" for="offer-input">Имя</label>
+        <input class="offer__input" type="text" id="offer-input" name="offer-input" placeholder="и ты на Марсе!">
+        <button class="offer__button" type="submit">
+          Я готов лететь
+        </button>
+      </form>
     </section>
   </section>
   <section class="description">
     <h2 class="description__title">
       Подводные камни в масштабах космоса
     </h2>
-    <img class="description__image" src="img/description/preview-2.jpg" width="1139" height="572"
-         alt="Фото для видео.">
+    <video class="description__video" poster="img/description/preview-2.jpg" preload="metadata" width="1139" height="572">
+    </video>
     <button class="description__play-button" type="button">
-      <span class="visually-hidden">Смотреть видео.</span>
+      Смотреть видео
     </button>
     <h3 class="description__subtitle">
       Жить или выживать?
@@ -193,10 +195,10 @@
     <h2 class="subscribe__title">
       Деньги приготовил. Когда вылетаем?
     </h2>
+    <p class="subscribe__subtitle">
+      Будь в курсе новостей
+    </p>
     <form class="subscribe__form" method="post" enctype="multipart/form-data" action="#" autocomplete="off">
-      <h3 class="subscribe__subtitle">
-        Будь в курсе новостей
-      </h3>
       <label class="visually-hidden" for="subscribe-name">
         Имя.
       </label>
