@@ -6,11 +6,261 @@
   <title>Проект «Пантеон»</title>
 </head>
 <body>
-<header class="main-header">
+<header class="header">
+  <a class="header__logo-link" href="#">
+    <img class="header__logo-image" src="img/logo.svg" width="180" height="50" alt="Логотип проекта «Пантеон».">
+  </a>
 </header>
 <main>
+  <h1 class="visually-hidden">
+    Проект «Пантеон» - полёты на Марс.
+  </h1>
+  <section class="preview">
+    <h2 class="visually-hidden">
+      О проекте.
+    </h2>
+    <p class="preview__text">
+      Пункт назначения: <strong class="preview__location">Пантеон</strong>,<strong class="preview__special-word">Марс
+    </strong>
+    </p>
+    <video class="preview__video" controls poster="img/preview/preview-1.jpg" preload="metadata" width="1139"
+           height="572">
+    </video>
+    <button class="preview__play-button" type="button">
+      Смотреть видео
+    </button>
+    <p class="">
+      Первый город на планете Марс недалеко от горы Олимп
+    </p>
+  </section>
+  <section class="facts">
+    <h2 class="visually-hidden">
+      Факты
+    </h2>
+    <ul class="facts__list">
+      <li class="facts__item">
+        <b class="facts__value">
+          4
+        </b>
+        <p class="facts__text">
+          четвёртая планета по удалённости от Солнца
+        </p>
+      </li>
+      <li class="facts__item">
+        <b class="facts__value">
+          7
+        </b>
+        <p class="facts__text">
+          седьмая по размерам планета Солнечной системы
+        </p>
+      </li>
+      <li class="facts__item">
+        <b class="facts__value">
+          10,7%
+        </b>
+        <p class="facts__text">
+          массы Земли (ваш вес будет в 3 раза меньше, чем на Земле)
+        </p>
+      </li>
+      <li class="facts__item">
+        <b class="facts__value">
+          2
+        </b>
+        <p class="facts__text">
+          спутника вместо Луны (как картошка, только больше)
+        </p>
+      </li>
+      <li class="facts__item">
+        <b class="facts__value">
+          21 км
+        </b>
+        <p class="facts__text">
+          высота самой высокой горы Марса
+        </p>
+      </li>
+      <li class="facts__item">
+        <b class="facts__value">
+          +20
+        </b>
+        <p class="facts__text">
+          максимальная температура на поверхности
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section class="about">
+    <h2 class="about__title">
+      Марс. Вспомнить всё
+    </h2>
+    <h3 class="about__subtitle">
+      Что такое Марс?
+    </h3>
+    <p class="about__text">
+      Планета Солнечной системы, названа в честь Марса — древнеримского бога войны. Иногда Марс называют «красной
+      планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.
+    </p>
+    <p class="about__text">
+      Особенности планеты — наличие слабой атмосферы, состоящей в основном из углекислого газа, времена года, пылевые
+      бури, сильная эрозия почв.
+    </p>
+    <h3 class="about__subtitle">
+      Где это? Как туда доехать?
+    </h3>
+    <p class="about__text">
+      Расстояние до Марса — почти 56 миллионов километров. Чтобы преодолеть такое расстояние, нужно лететь на
+      межпланетном корабле 7-8 месяцев.
+    </p>
+    <img class="about__image" src="img/about/path.png" width="469" height="286" alt="Схема пути от Земли до Марса.">
+  </section>
+  <section class="idea">
+    <h2 class="idea__title">
+      От идеи до реализации
+    </h2>
+    <h3 class="idea__subtitle">
+      Илон Маск. Гений или безумец?
+    </h3>
+    <p class="idea__text">
+      Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и
+      X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а
+      также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.
+    </p>
+    <blockquote class="idea__quote">
+      Мы должны сделать эту мечту реальностью за наше время жизни. Любой человек, который пожелает отправиться на Марс,
+      должен иметь такую возможность
+    </blockquote>
+    <p class="idea__text">
+      Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и
+      X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а
+      также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.
+    </p>
+    <p class="idea__text">
+      Илон поставил перед собой цель: сократить стоимость вывода кораблей
+      в космос в 10 раз, что станет первым шагом для человечества в освоении Марса.
+    </p>
+    <img class="idea__image" src="img/idea/photo-1.jpg" width="325" height="373" alt="Фото Илона Маска.">
+  </section>
+  <section class="offer">
+    <h2 class="offer__title">
+      Стоимость перелёта
+    </h2>
+    <img class="offer__image" src="img/offer/rocket.jpg" width="310" height="310" alt="Межпланетная ракета.">
+    <p class="offer__text">
+      Высадка двоих астронавтов на Луну обошлась США в 20 млрд. долларов. Маск стремится сократить эту цифру в 20 000
+      раз, что составит <strong class="offer__strong">500 000 долларов</strong> на человека.
+    </p>
+    <p class="offer__price">
+      <em class="offer__price-value">$500 k</em><i class="offer__slogan"> и ты на Марсе!</i>
+    </p>
+    <button class="offer__button" type="button">
+      Я готов лететь
+    </button>
+  </section>
+  <section class="description">
+    <h2 class="description__title">
+      Подводные камни в масштабах космоса
+    </h2>
+    <video class="description__video" controls poster="img/description/preview-2.jpg" preload="metadata" width="1139" height="572">
+    </video>
+    <button class="description__play-button" type="button">
+      <span class="visually-hidden">Смотреть видео.</span>
+    </button>
+    <h3 class="description__subtitle">
+      Жить или выживать?
+    </h3>
+    <p class="description__text">
+      Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?
+    </p>
+    <p class="description__text">
+      Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а
+      минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые
+      бури, длящиеся от нескольких часов до нескольких месяцев.
+    </p>
+    <p class="description__text">
+      На планете отсутствует магнитное поле, поэтому радиационный фон повышен. А низкая гравитация при длительном
+      пребывании на Марсе сделает возвращение на Землю невозможным. Полёт на Марс — билет в один конец с целью создать
+      новую цивилизацию.
+    </p>
+  </section>
+  <section class="organization">
+    <h2 class="organization__title">
+      Организация жизни в колонии
+    </h2>
+    <img class="organization__image" src="img/organization/onboarding.jpg" width="1140" height="529"
+         alt="Жилое помещение.">
+    <p class="organization__text">
+      В основе жилых помещений лежат надувные компоненты — спальня, рабочая зона, гостиная, парник для выращивания
+      зелени — 50 м2 на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу,
+      носить обычную одежду. Весь комплекс соединен сетью ходов.
+    </p>
+    <a class="organization__link-button" href="#">
+      Подробнее
+    </a>
+  </section>
+  <section class="subscribe">
+    <h2 class="subscribe__title">
+      Деньги приготовил. Когда вылетаем?
+    </h2>
+    <form class="subscribe__form" method="post" enctype="multipart/form-data" action="#" autocomplete="off">
+      <h3 class="subscribe__subtitle">
+        Будь в курсе новостей
+      </h3>
+      <label class="visually-hidden" for="subscribe-name">
+        Имя.
+      </label>
+      <input class="subscribe__input" type="text" id="subscribe-name" name="subscribe-name" placeholder="Имя">
+      <label class="visually-hidden" for="subscribe-mail">
+        E-mail.
+      </label>
+      <input class="subscribe__input" type="email" id="subscribe-mail" name="subscribe-mail" placeholder="E-mail">
+      <button class="subscribe__submit" type="submit">
+        Подписаться
+      </button>
+    </form>
+    <p class="subscribe__text">
+      Первый «частный» полёт на Марс осуществит в 2018 году в беспилотном варианте корабль Dragon V2 с помощью тяжёлой
+      ракеты Falcon Heavy. После этого запланированы две миссии в 2020 году, как минимум одна в 2022-м и, вероятно,
+      пилотируемая миссия через два года с достижением Марса в 2025 году.
+    </p>
+    <p class="subscribe__text">
+      Для всех желающих открыты курсы подготовки.
+    </p>
+    <a class="subscribe__link" href="#">
+      Критерии отбора
+    </a>
+  </section>
 </main>
-<footer class="main-footer">
+<footer class="footer">
+  <a class="footer__logo-link" href="#">
+    <img class="footer__logo-image" src="img/logo-footer.svg" width="145" height="35" alt="Логотип проекта «Пантеон».">
+  </a>
+  <a class="footer__more-details" href="#">
+    Подробнее о проекте
+  </a>
+  <p class="footer__social-text">
+    Следуйте за нами
+  </p>
+  <ul class="footer__social social">
+    <li class="social__item">
+      <a class="social__link" href="#">
+        ВКонтакте
+      </a>
+    </li>
+    <li class="social__item">
+      <a class="social__link" href="#">
+        Twitter
+      </a>
+    </li>
+    <li class="social__item">
+      <a class="social__link" href="#">
+        Facebook
+      </a>
+    </li>
+    <li class="social__item">
+      <a class="social__link" href="#">
+        YouTube
+      </a>
+    </li>
+  </ul>
 </footer>
 </body>
 </html>
